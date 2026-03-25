@@ -1,6 +1,6 @@
 # Bloque 2. Plataformas e arquitecturas para pipelines de datos
 
-Os pipelines de datos forman parte dunha arquitectura máis ampla que integra diferentes compoñentes tecnolóxicos. Para construír estes sistemas existen distintos enfoques, que dependen de factores como:
+Tal e como se viu no bloque anterior, os pipelines constrúense a partir de diferentes capas dunha arquitectura de datos. Para construír estes sistemas existen distintos enfoques, que dependen de factores como:
 
 - o tamaño e madurez da organización  
 - os recursos técnicos dispoñibles  
@@ -81,6 +81,23 @@ A diferenza de Databricks, que está máis centrado na arquitectura lakehouse ba
 
 ---
 
+## 1.3 Snowflake
+
+**Snowflake** é unha plataforma cloud de datos orientada principalmente ao almacenamento e análise de información mediante SQL.
+
+A diferenza de Databricks, que está baseado en Apache Spark e segue un enfoque *lakehouse*, Snowflake sitúase máis próximo ao concepto de **data warehouse moderno**, cunha forte orientación á análise estruturada.
+
+Entre as súas características destacan:
+
+- almacenamento e procesamento desacoplados  
+- alto rendemento en consultas SQL  
+- xestión automática da infraestrutura  
+- escalabilidade independente para almacenamento e computación  
+
+Snowflake permite construír solucións completas de análise de datos dentro da mesma plataforma, especialmente en contornos centrados en BI e análise SQL.
+
+---
+
 # 2. Plataformas cloud baseadas en servizos
 
 Outra aproximación consiste en construír arquitecturas de datos utilizando **servizos especializados dentro dunha plataforma cloud máis ampla**.
@@ -115,6 +132,12 @@ Google Cloud tamén ofrece unha serie de ferramentas orientadas ao procesamento 
 - **Pub/Sub**, sistema de mensaxería e transmisión de eventos  
 
 Estas ferramentas permiten construír pipelines de datos escalables dentro da infraestrutura de Google Cloud.
+
+---
+
+Ademais das ferramentas open source, existen plataformas comerciais que amplían estas capacidades. Un exemplo destacado é **Confluent**, unha plataforma baseada en Apache Kafka que facilita a xestión de fluxos de datos en tempo real en contornos empresariais.
+
+Confluent pode considerarse, en certa medida, a Kafka o que Databricks é a Spark: unha solución que simplifica o despregue, operación e escalabilidade dunha tecnoloxía distribuída amplamente utilizada.
 
 ---
 
@@ -155,11 +178,11 @@ Con todo, tamén implica:
 
 Os diferentes enfoques presentan características distintas:
 
-| enfoque | idea principal | exemplo |
+| enfoque | idea principal | exemplo representativo |
 |-------|----------------|---------|
-plataformas end-to-end | sistema integrado que cobre múltiples capas | Databricks |
-plataformas cloud baseadas en servizos | integración de varios servizos dun provedor cloud | AWS |
-arquitecturas modulares | combinación de ferramentas especializadas | NiFi + Spark + Airflow |
+| plataformas end-to-end | sistema integrado que cobre múltiples capas | Databricks |
+| plataformas cloud baseadas en servizos | integración de varios servizos dun provedor cloud | AWS |
+| arquitecturas modulares | combinación de ferramentas especializadas | NiFi + Spark + Airflow |
 
 Na práctica, moitas organizacións empregan **arquitecturas híbridas**, combinando ferramentas open source con servizos cloud.
 
