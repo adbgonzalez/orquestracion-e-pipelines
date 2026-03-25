@@ -6,7 +6,7 @@ Este repositorio recolle materiais en galego arredor do deseño, implementación
 
 - [Introdución aos pipelines de datos](./intro.md)
 - [Plataformas e arquitecturas para pipelines de datos](./plataformas-end-to-end.md)
-- [Bloque Databricks](./Databricks/index.md)
+- [Bloque Databricks](./Databricks/0.index.md)
 
 ## Estrutura actual
 
