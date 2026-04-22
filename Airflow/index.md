@@ -1,4 +1,4 @@
-# Índice de Airflow
+# Apuntamentos de Airflow
 
 Este bloque reúne os materiais introdutorios sobre Apache Airflow dentro do proxecto. Os capítulos están organizados para avanzar desde a visión xeral da ferramenta ata a escritura de DAGs, a comunicación entre tarefas e o uso de operadores máis específicos.
 
@@ -32,16 +32,9 @@ Este bloque reúne os materiais introdutorios sobre Apache Airflow dentro do pro
 
    Revisión de operadores especialmente relevantes para o proxecto, como `PythonOperator`, `BashOperator`, `EmptyOperator`, `SparkSubmitOperator`, operadores de Kafka e `HttpOperator`.
 
-## Suxestión de lectura
+## Bibliografía
 
-Unha orde natural para seguir estes materiais sería esta:
-
-1. introdución xeral
-2. conceptos básicos
-3. integración de Airflow no proxecto
-4. interface web e CLI
-5. primeiros DAGs
-6. comunicación entre tarefas
-7. operadores específicos
-
-Deste modo, primeiro constrúese o modelo mental da ferramenta, despois vese como se integra no contorno do laboratorio e, finalmente, avánzase cara á práctica con DAGs e operadores reais.
+- de Ruiter, Julian, Ismael Cabral, Kris Geusebroek, Daniel van der Ende e Bas Harenslak. *Data Pipelines with Apache Airflow. Second Edition*. Manning, 2026.
+- Apache Airflow. *Official Documentation*. https://airflow.apache.org/docs/
+- Apache Airflow. *Apache Airflow Core Documentation*. https://airflow.apache.org/docs/apache-airflow/stable/
+- Apache Airflow. *Provider Packages Documentation*. https://airflow.apache.org/docs/#providers-packages-docs
