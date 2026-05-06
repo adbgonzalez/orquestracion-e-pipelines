@@ -36,6 +36,16 @@ Este bloque reune os materiais introdutorios sobre Apache Airflow dentro do prox
 
    Introducion a planificacion temporal dos DAGs: `start_date`, `schedule`, expresions cron, `logical_date`, intervalos de datos e `catchup`.
 
+9. Anexos:
+
+   - 9.1. [Superset como capa de visualizacion](./9.1.superset.md)
+
+     Guia practica para conectar Superset co PostgreSQL de consulta, crear datasets, definir charts e crear dashboards sobre as taboas finais do pipeline.
+
+   - 9.2. [NiFi controlado desde Airflow](./9.2.nifi-airflow.md)
+
+     Guia practica para coordinar desde Airflow un fluxo de NiFi xa existente, por exemplo unha inxesta desde MongoDB Atlas cara a MinIO como capa `bronze`.
+
 ## Bibliografia
 
 - de Ruiter, Julian, Ismael Cabral, Kris Geusebroek, Daniel van der Ende e Bas Harenslak. *Data Pipelines with Apache Airflow. Second Edition*. Manning, 2026.
